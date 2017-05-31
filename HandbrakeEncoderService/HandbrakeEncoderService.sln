@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoFilesEntityModel", "VideoFileEntities\VideoFilesEntityModel.csproj", "{EB31D7AC-C16C-4F94-B562-A6BC5DD9B886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoEncoderLibrary", "VideoEncoderLibrary\VideoEncoderLibrary.csproj", "{7971BEE7-E28D-4C84-B7FD-DAB6A3C7B25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoEncoderService", "VideoEncoderService\VideoEncoderService.csproj", "{1B0BCA00-968F-4E8D-8833-C12E55885304}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HandbrakeEncoderService_setup", "HandbrakeEncoderService_setup\HandbrakeEncoderService_setup.vdproj", "{A26BC6EA-3F0B-4EC9-B056-3A68958C91BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB31D7AC-C16C-4F94-B562-A6BC5DD9B886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB31D7AC-C16C-4F94-B562-A6BC5DD9B886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB31D7AC-C16C-4F94-B562-A6BC5DD9B886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB31D7AC-C16C-4F94-B562-A6BC5DD9B886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7971BEE7-E28D-4C84-B7FD-DAB6A3C7B25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7971BEE7-E28D-4C84-B7FD-DAB6A3C7B25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7971BEE7-E28D-4C84-B7FD-DAB6A3C7B25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7971BEE7-E28D-4C84-B7FD-DAB6A3C7B25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0BCA00-968F-4E8D-8833-C12E55885304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0BCA00-968F-4E8D-8833-C12E55885304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0BCA00-968F-4E8D-8833-C12E55885304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0BCA00-968F-4E8D-8833-C12E55885304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26BC6EA-3F0B-4EC9-B056-3A68958C91BF}.Debug|Any CPU.ActiveCfg = Debug
+		{A26BC6EA-3F0B-4EC9-B056-3A68958C91BF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
